@@ -7,7 +7,7 @@ A very simple class that takes in a user agent string and returns the browser na
 
 Firstly, you *should not* use browser sniffing for fearture detection, [use Modernizr](http://modernizr.com/).
 
-We mainly use this for style tweaks between different browsers. Or sometimes you may need to add a little script (device-specific polyfill) or tweak on a specific platform combination and so you might do a check to see if that makes sense.
+We mainly use this for style tweaks between different browsers. Or sometimes you may need to add a little script (differences in keystroke handling can be difficult to feature detect) or tweak on a specific platform combination and so you might do a check to see if that makes sense.
 
 The results are pretty crude. We only return `internet-explorer` if IE is found. There is *no version information*. For the platform, we only return that operation system. This means all iOS devices (iPad, iPhone, iPod) would only return `ios`. If you need to know specifics about the device, [use media queries](http://stephen.io/mediaqueries/).
 
