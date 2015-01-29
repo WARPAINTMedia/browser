@@ -70,7 +70,14 @@ Results for Chrome on a Macbook:
 </head>
 <body class="google-chrome mac">
   <div class="content">
-    content
+    <pre>array(3) {
+      ["ua"]=>
+      string(120) "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.35 Safari/537.36"
+      ["platform"]=>
+      string(3) "mac"
+      ["browser"]=>
+      string(13) "google-chrome"
+    }</pre>
   </div>
 </body>
 </html>
